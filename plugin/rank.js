@@ -6,7 +6,7 @@
  You may not sell this script.
  It is supplied in the hope that it may be useful.
  * @project_name : Free Bot script
- * @author : Cyber Lord <https://github.com/cyberlord-dev>
+ * @author : Cyber Md <https://github.com/rahulbotmaster1>
  * @description : A Multi-functional whatsapp bot script.
  * @version 3.0.0
  **/
@@ -65,14 +65,14 @@ cmd({
         const progressBar = "⭐".repeat(progressPercent / 10) + "⚪".repeat(10 - progressPercent / 10);
 
         // URL of the image for the rank
-        const levelImageURL = "https://files.catbox.moe/yfeca5.jpg"; // Replace with your desired image URL
+        const levelImageURL = "https://i.ibb.co/Q7QgBp86/temp.jpg"; // Replace with your desired image URL
         
         // Send rank information in text and image
         const caption = `📊 *Rank Information*\n\n👤 *User*: @${
             target.split("@")[0]
         }\n🔝 *Level*: ${level}\n🔄 *Progression*: ${progressPercent}%\n${progressBar}\n📩 *Messages Sent*: ${
             userData.messages
-        }\n✨ *XP*: ${userData.experience}\n\n> 🤖 POWERED BY Cyber Lord 🤖`;
+        }\n✨ *XP*: ${userData.experience}\n\n> 🤖 POWERED BY RAHUL-MASTER 🤖`;
 
         // Send the image and caption together
         await conn.sendMessage(
