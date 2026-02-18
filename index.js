@@ -43,12 +43,12 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['2348107574599']
+const ownerNumber = ['919356730236']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("CYBER-CLD~", '');
+const sessdata = config.SESSION_ID.replace("CYBER-MD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -62,7 +62,7 @@ const port = process.env.PORT || 9090;
 
 
 async function connectToWA() {
-console.log("CONNECTING LITE-MD 🧬...");
+console.log("CONNECTING CYBER-MD 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -90,14 +90,14 @@ require("./plugins/" + plugin);
 }
 });
 console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
-console.log('LITE-MD CONNECTED TO WHATSAPP ENJOY ✅')
+console.log('CYBER-MD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `*╭──────────────●●►*
-> *➺ LITE-MD ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ Cyber Lord ✅*
+> *➺ CYBER-MD ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ Rahul Master ✅*
 
 > *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs 
 
-*https://whatsapp.com/channel/0029Vb4pakq47Xe8cU8o5e2q*
+*https://chat.whatsapp.com/CKE0bTR9jtT2W77jsA3OBk?mode=gi_t*
 
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
 
@@ -169,15 +169,15 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
         
 //================ownerreact==============
-if(senderNumber.includes("2348107574599")){
+if(senderNumber.includes("919356730236")){
 if(isReact) return
 m.react("👑")
 }
-if(senderNumber.includes("2348107574599")){
+if(senderNumber.includes("919356730236")){
 if(isReact) return
 m.react("👑")
 }
-if(senderNumber.includes("2348107574599")){
+if(senderNumber.includes(919356730236")){
 if(isReact) return
 m.react("🦋")
    }
@@ -279,7 +279,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("HEY, LITE-MD STARTED ✅");
+res.send("HEY, CYBER-MD STARTED ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
