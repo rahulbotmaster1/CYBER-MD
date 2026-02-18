@@ -6,7 +6,7 @@
  You may not sell this script.
  It is supplied in the hope that it may be useful.
  * @project_name : Free Bot script
- * @author : Cyber Lord <https://github.com/cyberlord-dev>
+ * @author : Cyber Md <https://github.com/rahulbotmaster1>
  * @description : A Multi-functional whatsapp bot script.
  * @version 3.0.0
  **/
@@ -52,7 +52,7 @@ cmd({
 
     const { desc, thumb, video_sd, video_hd } = data.result;
 
-    const caption = `╭════ 〔 *LITE-CLD* 〕════❐\n`
+    const caption = `╭════ 〔 *CYBER-MD* 〕════❐\n`
       + `┃▸ *Description:* ${desc || "No description"}\n`
       + `╰═════════════════❐\n\n`
       + `📹 *Download Options:*\n`
