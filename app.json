@@ -1,6 +1,6 @@
 {
-  "name": "LITE-CDL",
-  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ cyber lord ",
+  "name": "CYBER-MD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ rahul master ",
   "logo": "your image url",
   "keywords": ["bot"],
   "success_url": "/",
@@ -95,7 +95,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "✦『LITE-CDL』✦"
+      "value": "✦『CYBER-MD』✦"
     }, 
 
     "HEART_REACT": {
