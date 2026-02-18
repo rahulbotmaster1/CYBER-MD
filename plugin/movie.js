@@ -27,7 +27,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬 LITE-CLD MOVIE SERCH🎬*
+*🎬 CYBER-MD MOVIE SERCH🎬*
 
 *ᴛɪᴛʟᴇ:* ${data.Title}
 *ʏᴇᴀʀ:* ${data.Year}
@@ -43,14 +43,14 @@ cmd({
 *ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
 *ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
 
-> *powered by Cyber Lord👑*
+> *powered by RAHUL-MASTER👑*
 `;
 
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
 
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> CREATED BY Cyber LORD`
+            caption: `${movieInfo}\n> CREATED BY RAHUL-MASTER`
         }, { quoted: mek });
     } catch (e) {
         console.error(e);
