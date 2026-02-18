@@ -6,7 +6,7 @@
  You may not sell this script.
  It is supplied in the hope that it may be useful.
  * @project_name : Free Bot script
- * @author : Cyber Lord <https://github.com/cyberlord-dev>
+ * @author : Cyber Md <https://github.com/rahulbotmaster1>
  * @description : A Multi-functional whatsapp bot script.
  * @version 3.0.0
  **/
@@ -43,7 +43,7 @@ let desc = `
 🎧 *ENJOY THE MUSIC BROUGHT TO YOU!*
 
 
-> *© Powered by LITE-CLD* 
+> *© Powered by RAHUL-MASTER* 
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -55,7 +55,7 @@ let downloadUrl = down.dl_url
 
 //send audio message
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*© Powered by LITE-CLD*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*© Powered by RAHUL-MASTER*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
@@ -95,7 +95,7 @@ let desc = `
 🎬 *ENJOY THE VIDEO BROUGHT TO YOU!*
 
 
-> *© powered by LITE-CLD*
+> *© powered by RAHUL-MASTER*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -107,7 +107,7 @@ let downloadUrl = down.dl_url
 
 //send video message
 await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© Powered by LITE-CLD*"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"*© Powered by RAHUL-MASTER*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
