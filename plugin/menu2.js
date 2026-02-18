@@ -1,6 +1,6 @@
-/*created by Cyber Lord 🕵
-contact dev1 2348107574599 ♻️
-contact dev2 https://t.me/CyberLordDev ♻️
+/*created by Cyber Md 🕵
+contact dev1 919356730236 ®️
+contact dev2 https://t.me/rahulbotmaster 🤖
 © just give credit will you ⚠
 */
 
@@ -12,7 +12,7 @@ const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
     pattern: "menu2",
-    react: "👾",
+    react: "⚡",
     desc: "get cmd list",
     category: "main",
     filename: __filename
@@ -41,10 +41,10 @@ let madeMenu = `*╭─────────────────❒⁠⁠
      *${pushname}*
 
 ┏━━━━━━━━━━━━━━━━━━━━
-   *Welcome to LITE-CLD 2nd Menu*
+   *Welcome to CYBER MD 2nd Menu*
 ┗━━━━━━━━━━━━━━━━━━━━
 
-*Created by Cyber Lord👨🏻‍💻*
+*Created by Rahul Master👨🏻‍💻*
 
 
 *╭───────────────❒⁠⁠⁠⁠*
@@ -94,7 +94,7 @@ ${menu.search}
 *╰──────────●●►*
 
 
-> *Powered by LITE-CLD*
+> *Powered by RAHUL-MASTER*
 
 `;
 
