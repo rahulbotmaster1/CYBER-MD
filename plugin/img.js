@@ -37,7 +37,7 @@ cmd({
           'image': {
             'url': _0x58b5b7.images_url
           },
-          'caption': "*© 𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤𝖣 𝖡𝖸 LITE-CLD*" 
+          'caption': "*© 𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤𝖣 𝖡𝖸 CYBER-MD*" 
         }, {
           'quoted': _0x59fdb9
         });
@@ -93,9 +93,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 caption: `
 *💗 Image ${i + 1} from your search! 💗*
 
- *©  𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤𝖣 𝖡𝖸 LITE-CLD 👾*
+ *©  𝖦𝖤𝖭𝖤𝖱𝖠𝖳𝖤𝖣 𝖡𝖸 RAHUL-MASTER 👾*
 
-> 🥷🏽 LITE-CLD 🥷🏽`
+> 🥷🏽 CYBER-MD 🥷🏽`
 }, { quoted: mek });
 }
 
