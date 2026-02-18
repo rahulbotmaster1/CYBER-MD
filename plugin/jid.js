@@ -15,7 +15,7 @@ cmd({
 
         // If it's a group, reply with the group JID
         if (isGroup) {
-            return reply(`*ɢʀᴏᴜᴘ ᴊɪᴅ* *${from}@g.us*`);
+            return reply(`*CYBER-MD* *${from}@g.us*`);
         }
 
         // If it's a personal chat, reply with the user's JID
@@ -48,7 +48,7 @@ cmd({
         // If the message is from a group
         if (isGroup) {
             // Respond with the group JID
-            return reply(`*ɢʀᴏᴜᴘ ᴊɪᴅ:* *${from}@g.us*`);
+            return reply(`*CYBER-MD:* *${from}@g.us*`);
         }
 
         // If it's a personal chat, respond with the user's JID
