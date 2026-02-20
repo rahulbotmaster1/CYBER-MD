@@ -1,12 +1,12 @@
 {
-  "name": "CYBER-MD",
+  "name": "cyber-md",
   "version": "3.0.0",
   "description": "A WhatsApp Bot Created By Cyber",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name CYBER-MD",
-    "stop": "pm2 stop CYBER-MD",
-    "restart": "pm2 restart CYBER-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name cyber-md",
+    "stop": "pm2 stop cyber-md",
+    "restart": "pm2 restart cybed-md"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
