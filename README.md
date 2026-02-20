@@ -16,7 +16,7 @@ src="https://i.ibb.co/nN2rP4PP/temp.jpg">
 <a href="https://github.com/rahulbotmaster1/CYBER-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Jeliostarr/CYBER-MD?color=blue&style=flat-square"></a>
 <a href="https://github.com/rahulbotmaster1/CYBER-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/rahulbotmaster1/CYBER-MD?color=blue&style=flat-square"></a>
 <a href="https://github.com/rahulbotmaster1/CYBER-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/rahulbotmaster1/CYBER-MD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/Jeliostarr/EXTRA-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/rahulbotmaster1/CYBER-MD?style=flat-square&color=green"></a>
+<a href="https://github.com/rahulbotmaster1/CYBER-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/rahulbotmaster1/CYBER-MD?style=flat-square&color=green"></a>
 <a href="https://github.com/rahulbotmaster1/CYBER-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;</a>
 <a href="https://github.com/rahulbotmaster1/CYBER-MD"Dev"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&style=flat-square&color=darkpink"></a> &nbsp;
   <img src="https://komarev.com/ghpvc/?username=rahulbotmaster1&label=VIEWS&style=flat-square&color=blue" />
@@ -39,7 +39,7 @@ src="https://i.ibb.co/nN2rP4PP/temp.jpg">
 <p align="center">
     <strong>TUTORIALS & DEPLOYMENTS</strong>
     <br>
-    <a href="https://devmaxmd.netlify.app" target="_blank">
+    <a href="https://cyber-md-pair-v9qv.onrender.com/" target="_blank">
         <img alt="WEBSITE" src="https://img.shields.io/badge/Get%20Started-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkred&color=darkred"/>
     </a>
 </p>
