@@ -177,7 +177,7 @@ if(senderNumber.includes("919356730236")){
 if(isReact) return
 m.react("👑")
 }
-if(senderNumber.includes(919356730236")){
+if(senderNumber.includes("919356730236")){
 if(isReact) return
 m.react("🦋")
    }
