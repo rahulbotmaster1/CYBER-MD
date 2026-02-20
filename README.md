@@ -3,4 +3,4 @@ Simple JavaScript WhatsApp  bot by Rahul Master
 
 *PAIR-CODE*
 
-[https://cyber-md-pair-code.onrender.com/]
+[grieving-starlin-rahulhiran440-1f592436.koyeb.app/]
