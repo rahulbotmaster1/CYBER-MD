@@ -8,7 +8,7 @@ src="https://i.ibb.co/nN2rP4PP/temp.jpg">
 
    </p>
 <p align="center">
-<a href="https://github.com/rahulbotmaster1"><img title="Author" src="https://img.shields.io/badge/DEV-blue?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@rahulhiran4733"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/919356730236"><img title="Author" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/rahulbotmaster1"><img title="Author" src="https://img.shields.io/badge/CYBER-blue?style=for-the-badge&logo=Github"></a> <a href="https://youtube.com/@rahulhiran4733"><img title="Author" src="https://img.shields.io/badge/YT CHANNEL-darkred?style=for-the-badge&logo=youtube"></a> <a href="https://wa.me/919356730236"><img title="Author" src="https://img.shields.io/badge/Contact Me-darkgreen?style=for-the-badge&logo=whatsapp"></a>
 <p/> 
 
  <p align="center">
