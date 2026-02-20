@@ -70,7 +70,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("RAHUL-AI-MD~", '');
+const sessdata = config.SESSION_ID.replace("CYBER-MD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -115,7 +115,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*𝐇𝐄𝐘 👋🏻 𝐋𝐄𝐆𝐄𝐍𝐃 RAHUL-AI-V3 𝐁𝐎𝐓*
+  let up = `*𝐇𝐄𝐘 👋🏻 𝐋𝐄𝐆𝐄𝐍𝐃 CYBER MD 𝐁𝐎𝐓*
 *𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘!*
   
 ╭───━━━━───━━━━──┉┈⚆
@@ -128,7 +128,7 @@ const port = process.env.PORT || 9090;
 │• 🪄𝐒𝐓𝐀𝐓𝐔𝐒 𝐕𝐈𝐄𝐖𝐒 : ${status}
 │• 🫟𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 𝟑.𝟎.𝟎
 ┗───━━━━───━━━━──┉┈⚆`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/bruryh.jpeg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/xS40ynqx/temp.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -259,31 +259,31 @@ const port = process.env.PORT || 9090;
 					return;
 				}
  //================ownerreact==============
-    if(senderNumber.includes("923003588997")){
+    if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🪾")
     }
-if(senderNumber.includes("923003588997")){
+if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🫩")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🫆")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🫜")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🪉")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🪏")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("919356730236")){
   if(isReact) return
   m.react("🫟")
 	  }
@@ -806,7 +806,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("RAHUL AI STARTED ✅");
+  res.send("CYBER MD STARTED 🎉");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
