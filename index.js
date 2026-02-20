@@ -128,7 +128,7 @@ const port = process.env.PORT || 8000;
 │• 🪄𝐒𝐓𝐀𝐓𝐔𝐒 𝐕𝐈𝐄𝐖𝐒 : ${status}
 │• 🫟𝐕𝐄𝐑𝐒𝐈𝐎𝐍 : 𝟑.𝟎.𝟎
 ┗───━━━━───━━━━──┉┈⚆`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/xS40ynqx/temp.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url:`https://i.ibb.co/xS40ynqx/temp.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -213,7 +213,7 @@ const port = process.env.PORT || 8000;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const ali = ('923003588997');
+    const ali = ('919356730236');
     let isCreator = [udp, ali, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -806,7 +806,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("CYBER MD STARTED 🎉");
+  res.send("CYBER MD STARTED ✅ ");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
