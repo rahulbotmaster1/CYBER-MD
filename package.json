@@ -12,7 +12,7 @@
     "start": "node index.js",
     "build": "echo 'No build step required'"
   },
-  "author": "Rahul-AI",
+  "author": "CYBER-MD",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "latest",
