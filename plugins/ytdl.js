@@ -9,7 +9,7 @@ cmd({
   react: '🎶',
   desc: "Download audio from YouTube by searching for keywords (using API 2).",
   category: "music",
-  use: ".play1 <song name or keywords>",
+  use: ".play <song name or keywords>",
   filename: __filename
 }, async (conn, mek, msg, { from, args, reply }) => {
   try {
@@ -44,7 +44,7 @@ cmd({
       ptt: false
     }, { quoted: mek });
 
-    reply(`✅ *${title}* Rahul-Xd-V3 downloaded successfully!`);
+    reply(`✅ *${title}* CYBER-MD downloaded successfully!`);
   } catch (error) {
     console.error(error);
     reply("❌ An error occurred while processing your request.");
