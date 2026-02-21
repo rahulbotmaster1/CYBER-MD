@@ -4,16 +4,16 @@ cmd({
     pattern: "menu",
     desc: "menu the bot",
     category: "menu",
-    react: "🎉",
+    react: "⚡",
     filename: __filename
 },
 
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let dec = `💫 HEY ${pushname} THIS IS MY MENU ®️
+let dec = `💫 HEY ${pushname} THIS IS MY MENU 🚀
 
 ╭───────────━┈⊷
- ®️│ʙᴏᴛ ɴᴀᴍᴇ: RAHUL-XD-V3
+ ✨│ʙᴏᴛ ɴᴀᴍᴇ: CYBER-MD
 │⭐ ᴏᴡɴᴇʀ : *RAHUL-MASTER 
 │📌 ᴠᴇʀꜱɪᴏɴ: 1.1.3
 │🪩 ᴘʟᴀᴛғᴏʀᴍ: *ʟɪɴᴜx*
@@ -85,11 +85,9 @@ let dec = `💫 HEY ${pushname} THIS IS MY MENU ®️
 ┃◆ .𝙽𝚎𝚠𝚜
 ┃◆ .𝙼𝚘𝚟𝚒𝚎
 ╰━━━━━━━━━━━━⪼
-©️I AM RAHUL-XD-V3 WHATSAPP BOT ®️
 
-
->**POWERED BY THE MAIN RAHUL-MASTER🇮🇳**`
-await conn.sendMessage(from,{image:{url: `https://i.ibb.co/d4GxTgKf/temp-image.jpg`},caption:dec},{quoted:mek});
+>**POWERED BY THE MAIN RAHUL-MASTER**`
+await conn.sendMessage(from,{image:{url:`https://i.ibb.co/5xGNHz7Q/temp.jpg`},caption:dec},{quoted:mek});
     
 }catch(e){
 console.log(e)
