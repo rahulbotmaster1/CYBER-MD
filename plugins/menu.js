@@ -1,12 +1,3 @@
-/*created by Cyber Lord 🕵
-contact dev1 2348107574599 ♻️
-contact dev2 https://t.me/CyberLordDev ♻️
-© just give credit will you ⚠
-*/
-
-
-
-
 
 const config = require('../config')
 const {cmd , commands} = require('../command')
