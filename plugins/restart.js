@@ -4,7 +4,7 @@ const {sleep} = require('../lib/functions')
 
 cmd({
     pattern: "restart",
-    desc: "restart the bot RAHUL-XD-V3",
+    desc: "restart the bot CYBER-MD",
     category: "owner",
     react: "♻️",
     filename: __filename
