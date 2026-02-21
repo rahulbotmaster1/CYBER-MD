@@ -59,7 +59,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('☑️ Installing... ')
+console.log('✔️ Installing... ')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -69,8 +69,8 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up =`RAHUL XD V3 IS SUCCESSFULLY CONNECTED ☑️®️\n\n*PREFIX:${prefix}*\n\n♻️ :*RAHUL-XD-V3> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ RUSH-MASTER ☑️🌈`;
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/d4GxTgKf/temp-image.jpg` }, caption: up })
+let up =`CYBER MD  IS SUCCESSFULLY CONNECTED ⚡\n\n*PREFIX:${prefix}*\n\n♻️ :*CYBER-MD> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHUL-MASTER ⚡⚙️`;
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/4wnF6hVJ/temp.jpg` }, caption: up })
 
 }
 })
@@ -182,7 +182,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, RAHUL-XD-V3 started☑️");
+res.send("HEY, CYBER-MD STARTED 🚀");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
