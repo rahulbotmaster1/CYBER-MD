@@ -15,11 +15,11 @@ let dec = `*👋 Hello ${pushname}*
 
 > *MY OWNER INFO 👨‍💻* 
 
-*🔥 ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: RAHUL-XD-V3*
+*🔥 ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: CYBER-MD*
 🔥 *ɴᴜᴍʙᴇʀ* -: 919356730236
-*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHUL-XD-V3*
+*©ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHUL-MASTER*
 `
-await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/h2qai0.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://i.ibb.co/JWy9tq5B/temp.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
