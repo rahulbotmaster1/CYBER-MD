@@ -550,7 +550,7 @@ Module(
 
     if (!aliveMessage) {
       return await message.sendReply(
-        "*Testing Default Alive Message:*\nI'm alive!"
+        "*Testing Default Alive Message:*\nI'm CYBER-MD Active Now!"
       );
     }
 
@@ -558,3 +558,4 @@ Module(
     await parseAlive(message, aliveMessage);
   }
 );
+
