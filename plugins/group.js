@@ -40,7 +40,7 @@ Module(
       },
       message.jid
     );
-    return await message.send("_Chat cleared!_");
+    return await message.send("_CYBER-MD Chat cleared!_");
   }
 );
 
@@ -125,7 +125,7 @@ Module(
     desc: Lang.ADD_DESC,
     warn: "You number might get banned, use with caution",
     use: "group",
-    usage: ".add 919876543210",
+    usage: ".add 919356730236",
   },
   async (message, match) => {
     if (!message.isGroup) return await message.sendReply(Lang.GROUP_COMMAND);
@@ -797,7 +797,7 @@ Module(
     fromMe: true,
     use: "owner",
     desc: "Join a WhatsApp group using invite link",
-    usage: ".join https://chat.whatsapp.com/abcdef123456",
+    usage: ".join https://chat.whatsapp.com/CKE0bTR9jtT2W77jsA3OBk?mode=gi_t",
   },
   async (message, match) => {
     let rgx =
@@ -974,7 +974,7 @@ Module(
         message.client.user.id.split(":")[0] + "@s.whatsapp.net",
         { url: image }
       );
-      return await message.sendReply("_*Updated profile pic ✅*_");
+      return await message.sendReply("_CYBER-MD *Updated profile pic ✅*_");
     }
     if (message.reply_message && !message.reply_message.image) {
       try {
@@ -1021,3 +1021,4 @@ Module(
     }
   }
 );
+
