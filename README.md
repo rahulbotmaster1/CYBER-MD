@@ -57,8 +57,143 @@ src="https://i.ibb.co/nN2rP4PP/temp.jpg">
 - This bot is made for educational purposes `only` hence `DO NOT MISUSE`.
 
 **© RAHUL MASTER**
-##
+
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
-*(https://rgnk.site/)*
+<a>* DEPLOY  ON PANEL *
+
+
+CYBER.
+Multi session WhatsApp bot built for Enterprise-grade performance.
+
+Get Session
+Deploy Now
+Get Plugins
+Choose your deployment platform
+Render
+Deploy with automatic builds and free hosting
+
+Koyeb
+Global edge hosting with automatic scaling
+
+Custom VPS/RDP
+Deploy to your own server
+
+Panel
+Easy deployment on Pterodactyl-powered servers
+
+Deploy to Render
+Render offers automatic builds and free hosting for eligible projects. Follow these steps to deploy Raganork-MD:
+
+Go to Deployer
+After deploying, you should go to the Environment Variables section and add the SESSION variable.
+
+Deploy to Koyeb
+Koyeb provides global edge hosting with automatic scaling. Here's how to get your bot running:
+
+Click the "Deploy to Koyeb" button below.
+Sign in or create a Koyeb account.
+Expand environment variables section.
+Add necessary environment variables (SESSION & DATABASE_URL).
+Adding a postgres DATABASE_URL (Mandatory).
+Confirm deployment to launch your service.
+Deploy to Koyeb
+For more details, visit the GitHub deployment guide.
+
+Deploy to Your RDP/VPS
+To install CYBER-MD on your VPS, simply run the following command in your terminal:
+
+# One-line installation
+
+bash <(curl -s https://rgnk.site/install.sh)
+
+Copy Command
+This will automatically set up everything for you.
+For manual steps or troubleshooting, see the GitHub deployment guide.
+
+Deploy to Panel
+Deploying Raganork-MD on a Panel is simple using our dedicated JavaScript setup script.
+You will need access to your server's console or file manager.
+
+Log in to your Panel and navigate to your server.
+Ensure your server has internet access and Node.js installed.
+Click the button below to copy the setup script command.
+Remember to add your actual Raganork-MD session string in the script if required.
+Copy Setup Script
+Create a file called start.js in your panel, and paste the script content into it. Add your session string as needed.
+If your panel has a "Start File" field: Enter start.js.
+If your panel has a "Start Command" field: Enter node start.js.
+Start your server/bot from the Panel.
+Monitor the console for any errors or completion messages.
+This method requires your server to have Node.js installed, which is standard on most panels.
+For more details, see the GitHub deployment guide.
+
+Built for performance
+Enterprise-grade features with developer-first experience
+
+Lightning Fast
+Optimized for speed with minimal resource usage
+
+Multi-Device
+Full WhatsApp Web multi-device support
+
+Plugin System
+Extensible architecture with custom plugins
+
+Group Management
+Advanced admin tools and moderation
+
+Media Downloads
+Built-in media processing and downloads
+
+Configurable
+Flexible commands and extensive configuration
+
+Get started in seconds
+Three simple steps to deploy your bot
+
+1
+Generate Session
+Scan QR code to get your WhatsApp session string
+
+2
+Configure Environment
+Set up your environment variables and preferences
+
+3
+Deploy & Launch
+Choose your platform and deploy instantly
+
+Quick Setup
+# Clone repository
+git clone https://github.com/souravkl11/raganork-md.git
+# Install dependencies
+cd raganork-md && yarn install
+# Start bot
+npm start
+142+
+Active Deployments
+99.9%
+Uptime
+50+
+Built-in Features
+R
+CYBER-MD
+Advanced WhatsApp bot framework for developers.
+
+Product
+Features
+Documentation
+GitHub
+Community
+Telegram
+Website
+Support
+Deploy
+Render
+Koyeb
+Panel
+© 2026-2027 CYBER-MD. Licensed under GPL.
+
+Built for the developer community
