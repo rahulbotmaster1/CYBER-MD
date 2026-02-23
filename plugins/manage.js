@@ -109,7 +109,7 @@ Module(
     const key = args[1]?.trim();
     if (!key) {
       return await message.sendReply(
-        "_Please provide a variable name. Use: .getvar MY_VAR_"
+        "_CYBET-MD Please provide a variable name. Use: .getvar MY_VAR_"
       );
     }
 
@@ -133,7 +133,7 @@ Module(
     const key = args[1]?.trim();
     if (!key) {
       return await message.sendReply(
-        "_Please provide a variable name. Use: .delvar MY_VAR_"
+        "_CYBER-MD Please provide a variable name. Use: .delvar MY_VAR_"
       );
     }
  try {
@@ -1246,3 +1246,4 @@ module.exports = {
   setVar,
   delVar,
 };
+
