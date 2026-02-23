@@ -22,7 +22,7 @@ Module(
     if (!match[1]) return await message.send("*_Need a search term!_*");
     let splitInput = match[1].split(",");
     let count = parseInt(splitInput[1] || 5);
-    await message.send(`*_Searching for ${count} images..._*`);
+    await message.send(`*_CYBER-MD Searching for ${count} images..._*`);
 
     const buffer = Math.ceil(count * 0.5);
     let results = await gis(splitInput[0], count + buffer);
@@ -850,4 +850,5 @@ Module(
     }
   }
 );
+
 
