@@ -69,8 +69,8 @@ Module(
         author: STICKER_DATA.split(";")[1] || "",
         packname: message.senderName,
         categories: STICKER_DATA.split(";")[2] || "😂",
-        android: "https://github.com/souravkl11/Raganork-md/",
-        ios: "https://github.com/souravkl11/Raganork-md/",
+        android: "https://github.com/rahulbotmaster1/CYBER-MD/",
+        ios: "https://github.com/rahulbotmaster1/CYBER-MD/",
       };
       return await message.sendMessage(
         fs.readFileSync(await addExif(result, exif)),
@@ -85,8 +85,8 @@ Module(
       author: STICKER_DATA.split(";")[1] || "",
       packname: message.senderName,
       categories: STICKER_DATA.split(";")[2] || "😂",
-      android: "https://github.com/souravkl11/Raganork-md/",
-      ios: "https://github.com/souravkl11/Raganork-md/",
+      android: "https://github.com/rahulbotmaster1/CYBER-MD/",
+      ios: "https://github.com/souravkl11/CYBER-MD/",
     };
     if (message.reply_message.image === true) {
       return await message.sendMessage(
@@ -239,8 +239,8 @@ Module(
       author: STICKER_DATA.split(";")[1] || "",
       packname: message.senderName,
       categories: STICKER_DATA.split(";")[2] || "😂",
-      android: "https://github.com/souravkl11/Raganork-md/",
-      ios: "https://github.com/souravkl11/Raganork-md/",
+      android: "https://github.com/rahulbotmaster1/CYBER-MD/",
+      ios: "https://github.com/rahulbotmaster1/CYBER-MD/",
     };
     await message.sendMessage(
       fs.readFileSync(await addExif(result, exif)),
@@ -850,3 +850,4 @@ Module(
     }
   }
 );
+
