@@ -29,7 +29,7 @@ cmd({
     const videoUrl = firstResult.url;
 
     // Call the API to download the audio
-    const apiUrl = `https://api.davidcyriltech.my.id/download/ytmp3?url=${videoUrl}`;
+    const apiUrl = `https://api.lexcode.biz.id/api/dwn/ytplay=${videoUrl}`;
     const response = await axios.get(apiUrl);
     if (!response.data.success) {
       return reply(`❌ Failed to fetch audio for "${searchQuery}".`);
