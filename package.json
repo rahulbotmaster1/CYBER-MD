@@ -1,11 +1,11 @@
 {
-  "name": "raganork-md",
+  "name": "ragnarok-md",
   "version": "6.1.51",
   "description": "A multi functional wa bot.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "pm2 start index.js --name raganork-md --attach"
+    "start": "pm2 start index.js --name ragnarok-md --attach"
   },
   "keywords": [
     "whatsapp",
@@ -43,3 +43,4 @@
     "ytdlp-nodejs": "^2.3.0"
   }
 }
+
