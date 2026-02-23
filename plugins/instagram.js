@@ -54,7 +54,7 @@ Module(
     if (mediaLink.includes("stories"))
       return await message.sendReply("*_Use .story command!_*");
     if (mediaLink && !mediaLink.includes("instagram.com")) {
-      return await message.sendMessage("*_Need Instagram link!_*", "text", {
+      return await message.sendMessage("*_CYBER-MD Need Instagram link!_*", "text", {
         quoted: message.data,
       });
     }
@@ -114,7 +114,7 @@ Module(
     if (/\bhttps?:\/\/\S+/gi.test(videoLink)) {
       videoLink = videoLink.match(/\bhttps?:\/\/\S+/gi)[0];
     }
-    if (!videoLink) return await message.sendReply("*Need Facebook link*");
+    if (!videoLink) return await message.sendReply("*CYBER-MD Need Facebook link*");
 
     const facebookDownloadResult = await fb(videoLink);
     const sentMessage = await message.sendReply(
@@ -146,7 +146,7 @@ Module(
   },
   async (message, match) => {
     // disableCertificateCheck();
-    if (!match[1]) return await message.sendReply("_Need Instagram username!_");
+    if (!match[1]) return await message.sendReply("_CYBER-MD Need Instagram username!_");
 
     if (match[1].startsWith("https") && match[1].includes("instagram")) {
       const usernameRegex = /instagram\.com\/([^/?]+)/i;
@@ -194,7 +194,7 @@ Module(
     )
       return;
     if (!userIdentifier)
-      return await message.sendReply("_Need an Instagram username or link!_");
+      return await message.sendReply("_CYBER-MD Need an Instagram username or link!_");
 
     userIdentifier = !/\bhttps?:\/\/\S+/gi.test(userIdentifier)
       ? `https://instagram.com/stories/${userIdentifier}/`
@@ -203,10 +203,10 @@ Module(
     try {
       var storyData = await downloadGram(userIdentifier);
     } catch {
-      return await message.sendReply("*_Sorry, server error_*");
+      return await message.sendReply("*_CYBER-MD Sorry, server error_*");
     }
 
-    if (!storyData) return await message.sendReply("*_User has no stories!_*");
+    if (!storyData) return await message.sendReply("*_CYBER-MD User has no stories!_*");
 
     for (const storyMediaUrl of storyData) {
       const mediaBuffer = await getBuffer(storyMediaUrl);
@@ -231,14 +231,14 @@ Module(
     let userQuery = match[1] !== "" ? match[1] : message.reply_message.text;
     if (userQuery === "g") return;
     if (!userQuery)
-      return await message.sendReply("*Need text or Pinterest URL*");
+      return await message.sendReply("*CYBER-MD Need text or Pinterest URL*");
 
     if (/\bhttps?:\/\/\S+/gi.test(userQuery)) {
       userQuery = userQuery.match(/\bhttps?:\/\/\S+/gi)[0];
       try {
         var pinterestResult = await pin(userQuery);
       } catch {
-        return await message.sendReply("*Server error*");
+        return await message.sendReply("*CYBER-MD Server error*");
       }
       const quotedMessage = message.reply_message
         ? message.quoted
@@ -290,7 +290,7 @@ Module(
     if (!userQuery || userQuery === "g" || userQuery.startsWith("terest"))
       return;
     await message.sendReply(
-      "_Use .pinterest command for downloading content from this query!_"
+      "_CYBER-MD Use .pinterest command for downloading content from this query!_"
     );
   }
 );
@@ -305,7 +305,7 @@ Module(
   },
   async (message, match) => {
     let videoLink = match[1] !== "" ? match[1] : message.reply_message.text;
-    if (!videoLink) return await message.sendReply("_Need a TikTok URL_");
+    if (!videoLink) return await message.sendReply("_CYBER-MD Need a TikTok URL_");
 
     videoLink = videoLink.match(/\bhttps?:\/\/\S+/gi)[0];
     let downloadResult;
@@ -324,3 +324,4 @@ Module(
     }
   }
 );
+
