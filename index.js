@@ -6,7 +6,7 @@
  You may not sell this script.
  It is supplied in the hope that it may be useful.
  * @project_name : Free Bot script
- * @author : Malvin King <https://github.com/kingmalvn>
+ * @author : Rahul Master <https://github.com/rahulbotmaster1>
  * @description : A Multi-functional whatsapp bot script.
  * @version 3.0.0
  **/
@@ -43,12 +43,12 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['254731447507']
+const ownerNumber = ['919356730236']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("MALVIN-XD~", '');
+const sessdata = config.SESSION_ID.replace("CYBER-MD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -62,7 +62,7 @@ const port = process.env.PORT || 9090;
 
 
 async function connectToWA() {
-console.log("CONNECTING RYAN2-MD 🧬...");
+console.log("CONNECTING CYBER-MD 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -90,14 +90,14 @@ require("./plugins/" + plugin);
 }
 });
 console.log('PLUGINS FILES INSTALL SUCCESSFULLY ✅')
-console.log('RYAN2-MD CONNECTED TO WHATSAPP ENJOY ✅')
+console.log('CYBER-MD CONNECTED TO WHATSAPP ENJOY ✅')
 
 let up = `*╭──────────────●●►*
-> *➺ RYAN2-MD ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ your name ✅*
+> *➺ CYBER-MD ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʏ ᴛʏᴘᴇ .ᴍᴇɴᴜ ᴛᴏ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ your name ✅*
 
 > *❁ᴊᴏɪɴ ᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴜᴘᴅᴀᴛᴇs 
 
-*https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z*
+*https://whatsapp.com/channel/0029VbCAURbCXC3KqCbjGf1p*
 
 *YOUR BOT ACTIVE NOW ENJOY♥️🪄*\n\n*PREFIX: ${prefix}*
 
@@ -169,20 +169,20 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
         
 //================ownerreact==============
-if(senderNumber.includes("263777777777")){
+if(senderNumber.includes("919356730236")){
 if(isReact) return
 m.react("👑")
 }
-if(senderNumber.includes("263777777777")){
+if(senderNumber.includes("91935730236")){
 if(isReact) return
 m.react("👑")
 }
-if(senderNumber.includes("254731447507")){
+if(senderNumber.includes("919356730236")){
 if(isReact) return
 m.react("🦋")
    }
 
-if(senderNumber.includes("254731447507")){
+if(senderNumber.includes("919356730236")){
 if(isReact) return
 m.react("🎀")
    }
@@ -269,7 +269,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("HEY, RYAN2-MD STARTED ✅");
+res.send("HEY, CYBER-MD STARTED ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
