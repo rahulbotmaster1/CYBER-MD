@@ -6,7 +6,7 @@
  You may not sell this script.
  It is supplied in the hope that it may be useful.
  * @project_name : Free Bot script
- * @author : Malvin King <https://github.com/kingmalvn>
+ * @author : Rahul Master <https://github.com/rahulbotmaster1>
  * @description : A Multi-functional whatsapp bot script.
  * @version 3.0.0
  **/
@@ -19,7 +19,7 @@ cmd({
     pattern: "menu",
     alias: ["list"],
     desc: "bot's commands",
-    react: "📜",
+    react: "🚀",
     category: "main"
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -44,7 +44,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 _*🌟 Reply with the Number you want to select*_
 
-> *𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RYAN-MD*`;
+> *𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RAHUL-MASTER*`;
 
         const vv = await conn.sendMessage(from, { image: { url: config.MENU_IMG}, caption: desc }, { quoted: mek });
 
@@ -76,7 +76,7 @@ _*🌟 Reply with the Number you want to select*_
 
 📊 **Total Commands in MAIN:** 7  
  
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RYAN-MD**  
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RAHUL-MASTER**  
 
 `);
 
@@ -95,7 +95,7 @@ _*🌟 Reply with the Number you want to select*_
 
 📊 **Total Commands in SEARCH:** 2
 
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RYAN-MD**
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RAHUL-MASTER**
 `);
                         break;
                     case '3':               
@@ -121,7 +121,7 @@ _*🌟 Reply with the Number you want to select*_
 
 📊 **Total Commands in DOWNLOAD:** 12
  
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RYAN-MD**  
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RAHUL-MASTER**  
 
 `);
                     
@@ -158,7 +158,7 @@ _*🌟 Reply with the Number you want to select*_
 📊 **Total Commands in GROUP:** 20  
 
 
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RYAN-MD**  
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RAHUL-MASTER**  
 `);
                     break;
                     case '5':               
@@ -182,7 +182,7 @@ _*🌟 Reply with the Number you want to select*_
 📊 **Total Commands in Owner:** 9
 
  
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RYAN-MD**  
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RAHUL-MASTER**  
 
 `);
                     break;
@@ -208,7 +208,7 @@ _*🌟 Reply with the Number you want to select*_
 📊 **Total Commands in Owner:** 10
 
  
-> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RYAN-MD**  
+> 💡 **𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 RAHUL-MASTER**  
 
 `);
                        
