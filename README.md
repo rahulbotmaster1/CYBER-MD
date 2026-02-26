@@ -39,7 +39,7 @@ src="https://i.ibb.co/nN2rP4PP/temp.jpg">
 <p align="center">
     <strong>TUTORIALS & DEPLOYMENTS</strong>
     <br>
-    <a href="pair-session-link add" target="_blank">
+    <a href="https://cyber-md-pair-v9qv.onrender.com" target="_blank">
         <img alt="WEBSITE" src="https://img.shields.io/badge/Get%20Started-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkred&color=darkred"/>
     </a>
 </p>
