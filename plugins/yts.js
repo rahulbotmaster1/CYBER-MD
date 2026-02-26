@@ -11,7 +11,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 cmd({
     pattern: "yts",
     alias: ["ytsearch"],
-    use: '.yts Ryan xmd bot',
+    use: '.yts CYBER-MD bot',
     react: "🔎",
     desc: "Search and get details from youtube.",
     category: "search",
