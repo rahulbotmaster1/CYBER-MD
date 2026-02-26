@@ -1,6 +1,6 @@
-/*created by ryan ray 🕵
-contact dev1 254731447507♻️
-contact dev2 https://t.me/malvinking2 ♻️
+/*created by rahul master 🕵
+contact dev1 919456730236♻️
+contact dev2 https://t.me/rahulbotmaster9♻️
 © just give credit will you ⚠
 */
 
@@ -12,7 +12,7 @@ const config = require('../config')
 const {cmd , commands} = require('../command')
 cmd({
     pattern: "menu2",
-    react: "👾",
+    react: "⚡",
     desc: "get cmd list",
     category: "main",
     filename: __filename
@@ -41,10 +41,10 @@ let madeMenu = `*╭─────────────────❒⁠⁠
      *${pushname}*
 
 ┏━━━━━━━━━━━━━━━━━━━━
-   *Welcome to RYAN-MD 2nd Menu*
+   *Welcome to CYBER-MD 2nd Menu*
 ┗━━━━━━━━━━━━━━━━━━━━
 
-*Created by RYAN-MD👨🏻‍💻*
+*Created by RAHUL-MASTER👨🏻‍💻*
 
 
 *╭───────────────❒⁠⁠⁠⁠*
@@ -94,7 +94,7 @@ ${menu.search}
 *╰──────────●●►*
 
 
-> *Powered by RYAN-MD*
+> *Powered by RAHUL-MASTER*
 
 `;
 
