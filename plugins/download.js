@@ -6,7 +6,7 @@
  You may not sell this script.
  It is supplied in the hope that it may be useful.
  * @project_name : Free Bot script
- * @author : Malvin King <https://github.com/kingmalvn>
+ * @author : Rahul Master <https://github.com/rahulbotmaster1>
  * @description : A Multi-functional whatsapp bot script.
  * @version 3.0.0
  **/
@@ -52,7 +52,7 @@ cmd({
 
     const { desc, thumb, video_sd, video_hd } = data.result;
 
-    const caption = `╭════ 〔 * RYAN-MD* 〕════❐\n`
+    const caption = `╭════ 〔 *CYBER-MD* 〕════❐\n`
       + `┃▸ *Description:* ${desc || "No description"}\n`
       + `╰═════════════════❐\n\n`
       + `📹 *Download Options:*\n`
@@ -174,11 +174,11 @@ cmd({
       react: { text: "⬆️", key: m.key }
     });
 
-    const caption = `╭════ 〔 *RYAN-MD* 〕════❐\n`
+    const caption = `╭════ 〔 *CYBER-MD* 〕════❐\n`
       + `┃▢ *ғɪʟᴇ ɴᴀᴍᴇ:* ${file_name}\n`
       + `┃▢ *ғɪʟᴇ ᴛʏᴘᴇ:* ${mime_type}\n`
       + `╰═════════════════❐\n\n`
-      + `> *Powered by Your Ryan🎐*`;
+      + `> *Powered by Your RAHUL-MASTER🎐*`;
 
     await conn.sendMessage(from, {
       document: { url: dl_link },
@@ -224,14 +224,14 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭═══ 〔 *RYAN-MD 𝐀𝐏𝐊* 〕═══❐
+    const caption = `╭═══ 〔 *CYBER-MD 𝐀𝐏𝐊* 〕═══❐
 ┃ 🏷️ *ɴᴀᴍᴇ:* ${app.name}
 ┃ 📦 *sɪᴢᴇ:* ${appSize} MB
 ┃ 📮 *ᴘᴀᴄᴋᴀɢᴇ:* ${app.package}
 ┃ 📅 *ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ:* ${app.updated}
 ┃ 👨🏻‍💻 *ᴅᴇᴠᴇʟᴏᴘᴇʀ:* ${app.developer.name}
 ╰══════════════════❐
-> *Powered by your Ryan🎐*`;
+> *Powered by your RAHUL-MASTER🎐*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -282,7 +282,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "> *Powered by your Ryan 🎐*"
+        caption: "> *Powered by your RAHUL-MASTER🎐*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
