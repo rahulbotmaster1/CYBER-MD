@@ -19,16 +19,16 @@ try{
 
 let dec = `*👋 Hello ${pushname}*
 
-*👨‍💻 RYAN-MD 👨‍💻*
+*👨‍💻 CYBER-MD 👨‍💻*
 
 > *𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* 
 
-*⚡Owner name -: Ryan ray*
-*⚡Number* -: 254731447507
+*⚡Owner name -: RAHUL-MASTER*
+*⚡Number* -: 919356730236
 
- ⚡️◦ https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3
+ ⚡️◦https://whatsapp.com/channel/0029VbCAURbCXC3KqCbjGf1p
 
-> *Powered by RYAN-MD*
+> *Powered by RAHUL-MASTER*
 `;
 await conn.sendMessage(from,{image:{url:config.MENU_IMG},caption:dec},{quoted:mek});
 
@@ -51,14 +51,14 @@ try{
 
 let dec = `*📍ℝ𝔼ℙ𝕆-𝕃𝕀ℕ𝕂 ❤️‍🔥👇*
 
-👨‍💻⁰https://github.com/ryanreny243-source/RYAN2_MD
+👨‍💻⁰https://github.com/rahulbotmaster1-source/CYBER-MD
 
 
 *📍ℙ𝕃𝔼𝔸𝕊𝔼 𝔽𝕆𝕃𝕃𝕆𝕎 𝕄𝕐 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ ℂℍ𝔸ℕℕ𝔼𝕃 ❤️‍🔥👇*
 
-👨‍💻◦ https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
+👨‍💻◦ https://whatsapp.com/channel/0029VbCAURbCXC3KqCbjGf1p
 
-> *Powered by RYAN RAY*
+> *Powered by RAHUL-MASTER*
 `;
 await conn.sendMessage(from,{image:{url: config.MENU_IMG},caption:dec},{quoted:mek});
 
@@ -80,11 +80,11 @@ let status = `┌─────────────────────
 ├ ⏰ *Runtime:-* ${runtime(process.uptime())}
 ├ 📟 *Ram usage:-* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ├ ⚙️ *Platform:-* ${os.hostname()}
-├ 👨‍💻 *Owners:-* RYAN RAY
+├ 👨‍💻 *Owners:-* RAHUL-MASTER
 ├ 🧬 *Version:-* 3.0.0
 └───────────────────────
 
-> *𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘣𝘺 RYAN-MD*
+> *𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘣𝘺 RAHUL-MASTER*
 `;
 return reply(`${status}`)
   
@@ -283,7 +283,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const message = await conn.sendMessage(from, { text: '𝗣𝗶𝗻𝗴𝗶𝗻𝗴...' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `📍 Ping : ${ping}ms` }, { quoted: message })
+        await conn.sendMessage(from, { text: `📍✔️CYBER-MD ⚡🚀: ${ping}ms` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
