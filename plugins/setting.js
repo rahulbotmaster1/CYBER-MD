@@ -5,7 +5,7 @@ const config = require('../config');
 
 cmd({
     pattern: "settings",
-    react: "🎛️",
+    react: "⚙️",
     alias: ["setting", "env"],
     desc: "Get bot's settings list.",
     category: "main",
@@ -60,7 +60,7 @@ cmd({
 │
 ╰──────────────────────────╯
 
-*🌟DEVELOPED BY Your Name🌟*
+*🌟DEVELOPED BY RAHUL-MASTER🌟*
 `;
 
         // Send the settings message with the updated format
