@@ -43,14 +43,14 @@ cmd({
 *ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
 *ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
 
-> *powered by RYAN-MD👑*
+> *powered by RAHUL-MASTER👑*
 `;
 
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
 
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> CREATED BY RYAN-MD`
+            caption: `${movieInfo}\n> CREATED BY CYBER-MD`
         }, { quoted: mek });
     } catch (e) {
         console.error(e);
