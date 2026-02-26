@@ -7,7 +7,7 @@
  You may not sell this script.
  It is supplied in the hope that it may be useful.
  * @project_name : Free Bot script
- * @author : Malvin King <https://github.com/kingmalvn>
+ * @author : rahulbotmaster1 <https://github.com/rahulbotmaster1>
  * @description : A Multi-functional whatsapp bot script.
  * @version 3.0.0
  **/
@@ -37,7 +37,7 @@ async (conn, mek, m, { from, args, q, reply }) => {
         const { title, like, comment, share, author, meta } = data.data;
         const videoUrl = meta.media.find(v => v.type === "video").org;
         
-        const caption = `*❒ Your Botname VⵊDEO DOWNLOADER ❒*\n\n` +
+        const caption = `*❒ CYBER-MD VⵊDEO DOWNLOADER ❒*\n\n` +
                         `👤 *User:* ${author.nickname}\n` +
                         `♥️ *Likes:* ${like}\n💬 *Comments:* ${comment}\n♻️ *Shares:* ${share}`;
         
