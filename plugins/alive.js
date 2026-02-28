@@ -4,7 +4,7 @@ const config = require('../config');
 cmd({
     pattern: "alive",
     alias: ["bot", "robo", "status"],
-    react: "🤖",
+    react: "🧿",
     desc: "Check if the bot is online",
     category: "main",
     filename: __filename
@@ -30,7 +30,7 @@ async(robin, mek, m, {from, quoted, body, isCmd, command, args, q, isGroup, send
 │   *${config.BOT_NAME || 'Your Bot'}* is alive and running!
 │
 │   ⏰ *Uptime:* ${formatUptime(process.uptime())}
-│   📊 *Version:* ${config.VERSION || '1.0.0'}
+│   📊 *Version:* ${config.VERSION || '2.0.0'}
 │   💻 *Platform:* ${process.platform}
 │
 │   🌟 Thank you for using this service!
