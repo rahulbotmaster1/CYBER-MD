@@ -53,8 +53,8 @@ cmd(
 
       // Create the sticker from the media
       const sticker = new Sticker(media, {
-        pack: "❤️R_A_S_I_Y_A❤️", // Sticker pack name
-        author: "Rasindu❤️", // Sticker author name
+        pack: "CYBER-MD", // Sticker pack name
+        author: "RAHUL-MASTER", // Sticker author name
         type: StickerTypes.FULL, // Sticker type (FULL or CROPPED)
         quality: 50, // Quality of the output sticker (0–100)
       });
