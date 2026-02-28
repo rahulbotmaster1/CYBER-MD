@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-// පරිවර්තන සේවාව - Google Translate API
+// translation service  - Google Translate API
 async function translate(text, targetLang = 'si', apiKey = process.env.GOOGLE_API_KEY) {
     try {
         const response = await axios.post(
@@ -10,12 +10,12 @@ async function translate(text, targetLang = 'si', apiKey = process.env.GOOGLE_AP
         );
         return response.data.data.translations[0].translatedText;
     } catch (error) {
-        console.error('⚠️ පරිවර්තන දෝෂය:', error.message);
-        return text; // දෝෂයක් වුවද මුල් පෙළ ආපසු යවයි
+        console.error('⚠️ translation error:', error.message);
+        return text; // returns the original text on error
     }
 }
 
-// WhatsApp බොට් සඳහා ප්ලගින් ලෙස එක් කිරීම
+// WhatsApp Adding as a plugin for bots
 function setupTranslatePlugin(client) {
     client.on('message', async (message) => {
         if (message.body.startsWith('!tr')) {
@@ -23,11 +23,11 @@ function setupTranslatePlugin(client) {
             const text = textParts.join(' ');
 
             if (!text || !targetLang) {
-                return message.reply('⚙️ භාවිතය: !tr <භාෂාව> <පෙළ>\nඋදා: !tr si Hello');
+                return message.reply('⚙️ usage: !tr <l> <text>: !tr si Hello');
             }
 
             const translatedText = await translate(text, targetLang);
-            message.reply(`🌍 පරිවර්තනය (${targetLang}): ${translatedText}`);
+            message.reply(`🌍 translation (${targetLang}): ${translatedText}`);
         }
     });
 }
