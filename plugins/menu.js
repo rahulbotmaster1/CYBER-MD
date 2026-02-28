@@ -4,7 +4,7 @@ cmd(
   {
     pattern: "menu",
     alise: ["getmenu"],
-    react: "📜",
+    react: "🚀",
     desc: "get cmd list",
     category: "main",
     filename: __filename,
@@ -59,39 +59,39 @@ cmd(
       let madeMenu = `👋 *Hello  ${pushname}*
 
 
-| *MAIN COMMANDS* |
+| *☄️MAIN COMMANDS* |
     ▫️.alive
     ▫️.menu
     ▫️.ai <text>
     ▫️.system
     ▫️.owner
-| *DOWNLOAD COMMANDS* |
-    ▫️.song <text>
-    ▫️.video <text>
-    ▫️.fb <link>
-| *GROUP COMMANDS* |
+| * 📩 DOWNLOAD COMMANDS* |
+    ▫️.song 
+    ▫️.video 
+    ▫️.fb
+| *✨ GROUP COMMANDS* |
 ${menu.group}
-| *OWNER COMMANDS* |
+| *👤 OWNER COMMANDS* |
     ▫️.restart
     ▫️.update
-| *CONVERT COMMANDS* |
-    ▫️.sticker <reply img>
-    ▫️.img <reply sticker>
-    ▫️.tr <lang><text>
-    ▫️.tts <text>
-| *SEARCH COMMANDS* |
+| *🌠 CONVERT COMMANDS* |
+    ▫️.sticker 
+    ▫️.img 
+    ▫️.tr 
+    ▫️.tts 
+| *🚥SEARCH COMMANDS* |
 ${menu.search}
 
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 R_A_S_I_N_D_U🥶
+⚡ 𝐌𝐚𝐝𝐞 𝐛𝐲 RAHUL-MASTER 🇮🇳
 
-> RASIYA MENU MSG
+> ▶️CYBER-MD MENU MSG◀️
 `;
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/rasindus/My-md/refs/heads/main/Gemini_Generated_Image_hxiqmihxiqmihxiq.jpg",
+            url: "https://i.ibb.co/V0z1qPjJ/temp.jpg",
           },
           caption: madeMenu,
         },
