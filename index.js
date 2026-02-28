@@ -42,7 +42,7 @@ if (!fs.existsSync(__dirname + "/auth_info_baileys/creds.json")) {
   filer.download((err, data) => {
     if (err) throw err;
     fs.writeFile(__dirname + "/auth_info_baileys/creds.json", data, () => {
-      console.log("Session එක සාර්ථකව බාගත විය ✅");
+      console.log("Session bot downloaded successfully ✅");
     });
   });
 }
@@ -56,7 +56,7 @@ const port = process.env.PORT || 8000;
 async function connectToWA() {
   //===========================
 
-  console.log("Connecting ❤️R_A_S_I_Y_A❤️");
+  console.log("Connecting CYBER-MD");
   const { state, saveCreds } = await useMultiFileAuthState(
     __dirname + "/auth_info_baileys/"
   );
@@ -87,21 +87,21 @@ async function connectToWA() {
           require("./plugins/" + plugin);
         }
       });
-      console.log("❤️R_A_S_I_Y_A❤️ නිවැරදිව ස්ථාපනය විය. ✅");
-      console.log("❤️R_A_S_I_Y_A❤️ whatsapp සමග සම්බන්ධ විය.✅");
+      console.log("CYBER-MD Installed correctly. ✅");
+      console.log("CYBER-MD whatsapp connected with.✅");
 
-      let up = `❤️R_A_S_I_Y_A❤️ connected successful ✅`;
-      let up1 = `Hello ❤️R_A_S_I_Y_A❤️, I made bot successful`;
+      let up = `CYBER-MD connected successful ✅`;
+      let up1 = `Hello CYBER-MD, I made bot successful`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
         image: {
-          url: `https://raw.githubusercontent.com/rasindus/My-md/refs/heads/main/Gemini_Generated_Image_hxiqmihxiqmihxiq.jpg`,
+          url: `https://i.ibb.co/qLMbzYQq/temp.jpg`,
         },
         caption: up,
       });
-      robin.sendMessage("94782813087@s.whatsapp.net", {
+      robin.sendMessage("919356730236@s.whatsapp.net", {
         image: {
-          url: `https://raw.githubusercontent.com/rasindus/My-md/refs/heads/main/Gemini_Generated_Image_hxiqmihxiqmihxiq.jpg`,
+          url: `https://i.ibb.co/JFtM7mWr/temp.jpg`,
         },
         caption: up1,
       });
@@ -234,7 +234,7 @@ if (
       }
     };
     //Owner react
-    if (senderNumber.includes("94782813087")) {
+    if (senderNumber.includes("919356730236")) {
       if (isReact) return;
       m.react("®️");
     }
@@ -399,7 +399,7 @@ if (
   });
 }
 app.get("/", (req, res) => {
-  res.send("hey, ❤️R_A_S_I_Y_A❤️ started✅");
+  res.send("hey, CYBER-MD started✔️");
 });
 app.listen(port, () =>
   console.log(`Server listening on port http://localhost:${port}`)
