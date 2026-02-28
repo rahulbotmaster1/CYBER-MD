@@ -10,28 +10,28 @@ cmd({
   filename: __filename
 }, async (messageHandler, context, quotedMessage, { from, reply, q }) => {
   try {
-    if (!q) return reply("⚠️ *කරුණාකර ගීතයේ නම හෝ URL එකක් ලබාදෙන්න!*");
+    if (!q) return reply("⚠️ *Please provide song name or URL!*");
 
     const searchResults = await yts(q);
     if (!searchResults || searchResults.videos.length === 0) {
-      return reply("❌ *ඔබේ සෙවුමට ගැලපෙන ගීතයක් හමු නොවීය!*");
+      return reply("❌ *No song was found matching your search!*");
     }
 
     const songData = searchResults.videos[0];
     const songUrl = songData.url;
 
     let songDetailsMessage = `*----------------------------------*\n`;
-    songDetailsMessage += ` *ගීත විස්තරය* \n\n`;
-    songDetailsMessage += `✨ *මාතෘකාව:* ${songData.title}\n`;
-    songDetailsMessage += ` *දර්ශන:* ${songData.views}\n`;
-    songDetailsMessage += `⏱️ *කාලය:* ${songData.timestamp}\n`;
-    songDetailsMessage += ` *උඩුගත කළ දිනය:* ${songData.ago}\n`;
-    songDetailsMessage += ` *චැනලය:* ${songData.author.name}\n`;
+    songDetailsMessage += ` *Song description* \n\n`;
+    songDetailsMessage += `✨ *Title:* ${songData.title}\n`;
+    songDetailsMessage += ` *Visions:* ${songData.views}\n`;
+    songDetailsMessage += `⏱️ *Time:* ${songData.timestamp}\n`;
+    songDetailsMessage += ` *Date uploaded:* ${songData.ago}\n`;
+    songDetailsMessage += ` *Channel:* ${songData.author.name}\n`;
     songDetailsMessage += ` *URL:* ${songData.url}\n\n`;
-    songDetailsMessage += `*බාගත කිරීමේ ආකෘතිය තෝරන්න:* \n\n`;
-    songDetailsMessage += `1️⃣ ||  *ශ්‍රව්‍ය ගොනුව* \n`;
-    songDetailsMessage += `2️⃣ ||  *ලේඛන ගොනුව* \n\n`;
-    songDetailsMessage += `*ʀᴀꜱɪʏᴀ-ᴍᴅ ʙʏ ʀᴀꜱɪɴᴅᴜ*\n`;
+    songDetailsMessage += `*Select the download format:* \n\n`;
+    songDetailsMessage += `1️⃣ ||  *audio file* \n`;
+    songDetailsMessage += `2️⃣ ||  *Document file* \n\n`;
+    songDetailsMessage += `*CYBER-MD ʙʏ ʀᴀꜱɪɴᴅᴜ*\n`;
     songDetailsMessage += `*----------------------------------*`;
 
     const sentMessage = await messageHandler.sendMessage(from, {
@@ -48,13 +48,13 @@ cmd({
       if (message.message.extendedTextMessage.contextInfo.stanzaId === sentMessage.key.id) {
         switch (userReply) {
           case '1':
-            await messageHandler.sendMessage(from, { text: "⏳ *ශ්‍රව්‍ය ගොනුව බාගත වෙමින් පවතී...* 🇱🇰\n\nby rasiya md" }, { quoted: quotedMessage });
+            await messageHandler.sendMessage(from, { text: "⏳ *Audio file is downloading...* 🇮🇳\n\nby CYBER MD" }, { quoted: quotedMessage });
 
             const result = await ddownr.download(songUrl, 'mp3');
 
             // After downloading, show upload progress in a single message
             setTimeout(async () => {
-              await messageHandler.sendMessage(from, { text: "⏳ *ශ්‍රව්‍ය ගොනුව උඩුගත වෙමින් පවතී...* 🇱🇰\n\nby rasiya md" }, { quoted: quotedMessage });
+              await messageHandler.sendMessage(from, { text: "⏳ *Audio file is being uploaded...* 🇮🇳\n\nby CYBER MD" }, { quoted: quotedMessage });
 
               await messageHandler.sendMessage(from, {
                 audio: { url: result.uploadUrl || result.downloadUrl },
@@ -62,21 +62,21 @@ cmd({
                 caption: "by rasiya md"
               }, { quoted: quotedMessage });
 
-              // Bot signature added to the final message
+Audio file is downloading              // Bot signature added to the final message
               await messageHandler.sendMessage(from, {
-                text: `\n🎉 *Bot by Rasiya-MD* 🇱🇰`
+                text: `\n🎉 *Bot by CYBER-MD* 🇮🇳`
               });
             }, 1000);
             break;
 
           case '2':
-            await messageHandler.sendMessage(from, { text: "⏳ *ලේඛන ගොනුව බාගත වෙමින් පවතී...* 🇱🇰\n\nby rasiya md" }, { quoted: quotedMessage });
+            await messageHandler.sendMessage(from, { text: "⏳ *Document file is being downloaded...* 🇮🇳\n\nby CYBER MD" }, { quoted: quotedMessage });
 
             const docResult = await ddownr.download(songUrl, 'mp3');
 
             // After downloading, show upload progress in a single message
             setTimeout(async () => {
-              await messageHandler.sendMessage(from, { text: "⏳ *ලේඛන ගොනුව උඩුගත වෙමින් පවතී...* 🇱🇰\n\nby rasiya md" }, { quoted: quotedMessage });
+              await messageHandler.sendMessage(from, { text: "⏳ *Document file is being uploaded...* 🇮🇳\n\nby CYBER MD" }, { quoted: quotedMessage });
 
               await messageHandler.sendMessage(from, {
                 document: { url: docResult.uploadUrl || docResult.downloadUrl },
@@ -87,19 +87,19 @@ cmd({
 
               // Bot signature added to the final message
               await messageHandler.sendMessage(from, {
-                text: `\n🎉 *Bot by Rasiya-MD* 🇱🇰`
+                text: `\n🎉 *Bot by CYBER-MD* 🇮🇳`
               });
             }, 1000);
             break;
 
           default:
-            reply("⚠️ *වලංගු විකල්පයක් තෝරන්න!*");
+            reply("⚠️ *Select a valid option!*");
             break;
         }
       }
     });
   } catch (error) {
     console.error(error);
-    reply("❌ *ඔබගේ ඉල්ලීම සැකසීමේදී දෝෂයක් සිදුවිය!*");
+    reply("❌ *An error occurred while processing your request!*");
   }
 });
