@@ -2,7 +2,7 @@ const { cmd } = require('../command');
 
 cmd({
     pattern: "block",
-    react: "⚠️",
+    react: "🗽",
     alias: ["ban"],
     desc: "Block a user instantly.",
     category: "main",
