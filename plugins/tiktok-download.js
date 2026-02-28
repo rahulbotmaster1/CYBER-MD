@@ -109,7 +109,7 @@ cmd(
       const shareCount = result.data.share_count || 0;
 
       // Create a formatted caption
-      const caption = `*🫦 RASIYA TIKTOK DOWNLOADER 🫦*\n\n` +
+      const caption = `*⚡ CYBER-MD TIKTOK DOWNLOADER 🫦*\n\n` +
         `🎥 *Title*: ${title}\n` +
         `👤 *Author*: ${author}\n` +
         `⏱️ *Duration*: ${duration}s\n` +
@@ -117,7 +117,7 @@ cmd(
         `💬 *Comments*: ${commentCount.toLocaleString()}\n` +
         `🔁 *Shares*: ${shareCount.toLocaleString()}\n` +
         `🔗 *URL*: ${tiktokUrl}\n\n` +
-        `*Made with Rasiya-MD*`;
+        `*Made with RAHUL-MASTER*`;
 
       // Try to change reaction to success on the processing message
       try {
@@ -307,12 +307,12 @@ cmd(
 • .tiktokaudio [url] - Download TikTok audio only
 • .tikhelp - Show this help message
 
-✅සිංහලෙන්✅
+✅In Maharashtra✅
 
-• .tiktok [url] - දිය සලකුණක් නොමැතිව TikTok වීඩියෝව බාගන්න
-• .tiktokwm [url] - දිය සලකුණක් සහිත TikTok වීඩියෝව බාගන්න
-• .tiktoaudio [url] - TikTok ශ්‍රව්‍ය පමණක් බාගන්න
-• .tikhelp - මෙම උදව් පණිවිඩය පෙන්වන්න
+• .tiktok [url] - Download TikTok videos without watermark
+• .tiktokwm [url] - Download TikTok video with watermark
+• .tiktoaudio [url] - TikTok Download audio only
+• .tikhelp - Show this help message
 
 *Example:*
 .tiktok https://vm.tiktok.com/XYZABC12
@@ -322,12 +322,12 @@ cmd(
 - Videos may take time to download depending on size
 - Some TikTok videos may be protected and can't be downloaded
 
-*සටහන්:*
-- වලංගු TikTok URL භාවිතා කිරීමට වග බලා ගන්න
-- ප්‍රමාණය අනුව වීඩියෝ බාගත කිරීමට කාලය ගත විය හැක
-- සමහර TikTok වීඩියෝ ආරක්ෂිත විය හැකි අතර බාගත කළ නොහැක
+*Notes:*
+- Make sure to use a valid TikTok URL
+- Video may take time to download depending on size
+- Some TikTok videos may be protected and cannot be downloaded
 
-> *Made BY Rasiya-MD by rasindu ❤️ *`;
+> *Made BY CYBER-MD by RAHUL-MASTER ❤️ *`;
 
       // Send help message with image
       const helpMsg = await robin.sendMessage(from, {
