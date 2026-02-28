@@ -7,16 +7,16 @@ function convertToBool(text, fault = "true") {
 }
 module.exports = {
   SESSION_ID: process.env.SESSION_ID || "nhAEjR5Q#avzMD5zz21MnSiNkn_wB0FZoKT7fGMF-V3Odfc4eBWQ",
-  OWNER_NUM: process.env.OWNER_NUM || "94783364887",
+  OWNER_NUM: process.env.OWNER_NUM || "919356730236",
   PREFIX: process.env.PREFIX || ".",
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://raw.githubusercontent.com/rasindus/My-md/refs/heads/main/Gemini_Generated_Image_hxiqmihxiqmihxiq.jpg",
-  ALIVE_MSG: process.env.ALIVE_MSG || "හායි I am alive❤️😇 කරුනාකර විදානයක් ලබාදෙන්න🤍😊 𝚃𝚑𝚒𝚜 𝚋𝚘𝚝 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 𝚛𝚊𝚜𝚒𝚗𝚍𝚞🫂",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/qLMbzYQq/temp.jpg",
+  ALIVE_MSG: process.env.ALIVE_MSG || "Hi I am alive❤️😇 Please leave a comment 𝚃𝚑𝚒𝚜 𝚋𝚘𝚝 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 RAHUL-MASTER",
   AUTO_VOICE: process.env.AUTO_VOICE || "false",
   AUTO_STICKER : process.env.AUTO_STICKER || "false",
   AUTO_STICKER : process.env.AUTO_STICKER || "false",
   MODE: process.env.MODE || "public",
   GEMINI_API_KEY : process.env.GEMINI_API_KEY || "AIzaSyC8pSIvRTtYS-ZghDZWWPUY360gEFB37hM",
   MOVIE_API_KEY : process.env.MOVIE_API_KEY || "sky|ef8ec9b6478140b29bdab63164f82bc02ef713a2",
-  BOT_NAME: "RASIYA_®",  // නව එකතු කිරීම
+  BOT_NAME: "CYBER-MD",  // නව එකතු කිරීම
   VERSION: "1.0.0",           // නව එකතු කිරීම
 };
