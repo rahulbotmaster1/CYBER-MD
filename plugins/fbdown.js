@@ -8,7 +8,7 @@ cmd(
   {
     pattern: "fb",
     alias: ["facebook"],
-    react: "🎬",
+    react: "📽️",
     category: "download",
     desc: "Download Facebook videos (HD or SD) with thumbnail and extra info",
     filename: __filename,
@@ -62,7 +62,7 @@ cmd(
 
       const videoData = {
         ...response.data.data,
-        poweredBy: "Frozen MD",
+        poweredBy: "CYBER MD",
         status: apiStatus
       };
 
@@ -87,7 +87,7 @@ cmd(
           caption += `📌 Quality: ${videoData.quality}\n`;
         }
 
-        caption += `✅ Powered by ®️ Rasiya MD ®️`;
+        caption += `✅ Powered by ®️ CYBER MD ®️`;
 
         if (videoData.thumbnail) {
           await robin.sendMessage(
