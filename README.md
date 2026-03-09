@@ -39,7 +39,7 @@ src="https://i.ibb.co/nN2rP4PP/temp.jpg">
 <p align="center">
     <strong>TUTORIALS & DEPLOYMENTS</strong>
     <br>
-    <a href="https://cyber-md-pair-zlub.onrender.com" target="_blank">
+    <a href="http://provincial-lexy-rahulmasters-c1d0e876.koyeb.app/" target="_blank">
         <img alt="WEBSITE" src="https://img.shields.io/badge/Get%20Started-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkred&color=darkred"/>
     </a>
 </p>
